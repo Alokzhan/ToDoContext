@@ -1,5 +1,5 @@
 import React from 'react';
-import { useTodo } from '../contexts/ToDoContext';
+import { useTodo } from '../src/contexts/ToDoContext';
 function TodoItem({ todo }) {
   const { toggleComplete, deleteTodo } = useTodo();
 
